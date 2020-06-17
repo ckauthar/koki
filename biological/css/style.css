@@ -187,7 +187,6 @@ li a.active {
 }
 
 /*service area*/
-
 .service {
     background: #4a772f;
     background-repeat: repeat-y;
@@ -203,7 +202,6 @@ li a.active {
 .service h3 {
     color: #fff;
 }
-
 .service h4 {
     font-size: 24px;
     color: #fff;
@@ -212,89 +210,40 @@ li a.active {
     display: block;
 }
 
-.single-service-img {
-    width: 205px;
-    height: 125px;
-    background: #79d70f;
-    position: relative;
-    left: 60%;
-    margin-left: -100px;
-}
-
-.single-service-img:before {
+.div.service {
+    border: 1px solid #ccc;
+  }
+  
+  div.service:hover {
+    border: 1px solid #777;
+  }
+  
+  div.service img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  
+  .clearfix:after {
     content: "";
-    position: absolute;
-    top: 42px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 102px solid transparent;
-    border-right: 104px solid transparent;
-    border-bottom: 42px solid #79d70f;
-}
-.single-service-img:after {
-    content: "";
-    position: absolute;
-    bottom: -42px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 102px solid transparent;
-    border-right: 102px solid transparent;
-    border-top: 42px solid #79d70f;
-    z-index: 10;
-}
-.service-img {
-    width: 205px;
-    height: 123px;
-    background: #79d70f;
-    position: relative;
-    top: 1px;
-    left: 2px;
-}
-.service-img:before {
-    content: "";
-    position: absolute;
-    top: -40px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 40px solid #79d70f;
-}
-.service-img:after {
-    content: "";
-    position: absolute;
-    bottom: -39px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 40px solid #79d70f;
-    z-index: 999;
-}
-
-.service-img img.covid-19 {
-    left: 30%;
-    top: 18%;
-}
-.service-img img.fogging{
-    left: 26%;
-    top: 11%;
-}
-.service-img img.sanitization {
-    left: 38%;
-}
-.service-img img.disinfection {
-    left: 25%;
-    top: 14%;
-}
-.service-img img {
-    position: absolute;
-}
-
+    display: table;
+    clear: both;
+  }
 /*our work section*/
 
 .our-work {
