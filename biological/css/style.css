@@ -52,7 +52,7 @@ h2 {
     -ms-transition: all .5s ease 0s;
 }
 .nav-bar {
-    margin-top: 29px;
+    margin-top: 70px;
 }
 .navbar-toggle span {
     color: #fff;
@@ -244,6 +244,7 @@ li a.active {
     display: table;
     clear: both;
   }
+
 /*our work section*/
 
 .our-work {
@@ -260,6 +261,11 @@ li a.active {
     color: #737373;
     margin-top: 0;
     margin-bottom: 45px;
+}
+
+.our-work {
+    margin: 0;
+    padding: 0;
 }
 
 .work img {
@@ -321,11 +327,11 @@ li a.active {
 
 /*contact section*/
 
-.contact {
+.contact-caption {
     background: #79d70f;
-    background-repeat: repeat-y;
-    margin-top: 40px;
+    margin-top: 70px;
 }
+
 .contact-heading h2 {
     color: #fff;
     font-size: 90px;
@@ -415,7 +421,6 @@ li a.active {
     padding-right: 40px;
 }
 
-
 /*footer*/
 
 .footer-para {
@@ -489,15 +494,6 @@ li a.active {
     }
 }
 
-/* just for demo purpose */
-
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 100%;
-}
 
 /******************************
 responsive area
@@ -562,12 +558,10 @@ responsive area
     h4 {
         font-size: 18px !important;
     }
-    #map {
-        height: 1050px;
-    }
+  
     .contact {
-        margin-top: -1050px;
-        height: 1050px;
+        margin-top: 100px;
+        height: 100px;
     }
     .contact-caption {
         margin-top: 110px;
@@ -597,12 +591,10 @@ responsive area
         height: 40px;
         font-size: 20px;
     }
-    #map {
-        height: 1120px;
-    }
+   
     .contact {
-        height: 1120px;
-        margin-top: -1120px;
+        height: 50px;
+        margin-top: 50px;
     }
     h2 {
         font-size: 70px !important;
@@ -683,12 +675,9 @@ responsive area
     .contact-caption {
         margin-top: 38%;
     }
-    #map {
-        height: 950px;
-    }
     .contact {
-        height: 950px;
-        margin-top: -950px;
+        height: 40px;
+        margin-top: 40px;
     }
     .contact-heading h2 {
         font-size: 50px;
@@ -729,3 +718,5 @@ responsive area
         font-size: 10px;
     }
 }
+
+
