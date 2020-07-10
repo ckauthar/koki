@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.banner-wrap {
+    background: url(./images/background\ images.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-wrap:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: rgba(red, green, blue, alpha);
+    z-index: 1;
+}
+
+.banner-container {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.sign-in-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    color: white;
+    background: red;
+    float: right;
+    border-radius: 3px;
+}
+
+.banner-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.title-main {
+    font-size: 64px;
+}
+
+.banner-content-inner h3 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.banner-content-inner {
+    font-size: 19px;
+}
+
+.banner-subscribe-form {
+    margin-bottom: 10px;
+}
+
+.banner-subscribe-form:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.banner-subscribe-form input{
+    height: 70px;
+    border: 0;
+}
+
+.banner-subscribe-form input[type="email"] {
+    padding: 10px 15px;
+    width: 65%;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    float: left;
+}
+
+.banner-subscribe-form input[type="submit"] {
+    padding: 10px 30px;
+    width: 35%;
+    float: right;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* Footer */
+.footer {
+    max-width: 75%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer, .footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    line-height: 1.9;
+}
+
