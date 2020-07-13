@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    box-shadow: 2px 2px 4px black;
+    padding: 0 4rem;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-left: 2rem;
+    color: lightslategray;
+}
