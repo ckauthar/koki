@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 4px black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 1rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-left: 1.3rem;
+}
+
+.input {
+    text-align: center;
+    padding: .3rem 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
