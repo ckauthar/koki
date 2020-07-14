@@ -1,0 +1,212 @@
+/* The General Style Starts Here */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    padding: 6rem 2rem;
+}
+
+/* The Header Style Starts Here */
+.header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.377), rgba(0, 0, 0, 0.041)), url(./image/bird-s-eye-view-photography-of-city-2960007.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* The Navigation Style Starts Here*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-left: 2.5rem;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .5s;
+}
+
+.item:hover {
+    border: 1px solid #fff;
+}
+/* The Navigation Style Ends Here*/
+
+.header-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 40%;
+    text-align: center;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.header-title {
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.header-btn {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(255, 0, 0, 0.486));
+    border-radius: 100px;
+    padding: .7rem 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.header-btn:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(255, 0, 0, 0.671));
+}
+/* The Header Style Ends Here*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 6rem 2rem;
+}
+
+.about-content {
+    padding: 1rem 2rem;
+    width: 50%;
+    box-shadow: 3px 3px 6px #555;
+    border-radius: 5px;
+}
+
+.text {
+    line-height: 1.5;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.service {
+    padding: 0 1.4rem;
+    text-align: center;
+    margin: 0 3rem;
+    width: 35%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.692);
+    transition: all .5s;
+}
+
+.service:hover {
+    background-color: black;
+    color: white;
+}
+.service-title {
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.service-text {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+
+.projects {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.507)), url(./image/bird-s-eye-view-photography-of-city-2960007.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.3rem;
+    color: #999;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 30%;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.692);
+    text-align: center;
+}
+
+.project-desc {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.users {
+    padding: 6rem 4rem;
+}
+
+.user {
+    width: 25%;
+    padding: 1rem 1.2rem;
+    margin: 0 1.4rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+
+.user-desc {
+    margin-bottom: 1.3rem;
+}
+
+.user-link {
+    text-decoration: none;
+    color: #555;
+    border: 1px solid #555;
+    padding: .6rem 1rem;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.user-link:hover {
+    background-color: orange;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-text {
+    font-size: 1.3rem;
+}
+
