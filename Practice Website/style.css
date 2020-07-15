@@ -91,115 +91,195 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(255, 0, 0, 0.671));
 }
 /* The Header Style Ends Here*/
+.services {
+    padding: 8rem 3rem;
+    background-color: rgb(46, 5, 5);
+}
 
-.about {
+.services-content {
     display: flex;
     justify-content: center;
-    padding: 6rem 2rem;
-}
-
-.about-content {
-    padding: 1rem 2rem;
-    width: 50%;
-    box-shadow: 3px 3px 6px #555;
-    border-radius: 5px;
-}
-
-.text {
-    line-height: 1.5;
-    font-size: 1.3rem;
-    color: #555;
 }
 
 .service {
-    padding: 0 1.4rem;
+    margin: 0 1.3rem;
+    padding: 2rem 1rem;
+    background-color: rgba(2555, 255, 255, 0.548);
+    clip-path: polygon(0 15% , 100% 0 , 100% 90% , 0 100% );
+    box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.63);
+}
+
+.service__title {
     text-align: center;
-    margin: 0 3rem;
-    width: 35%;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.692);
-    transition: all .5s;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
 }
 
-.service:hover {
-    background-color: black;
-    color: white;
-}
-.service-title {
-    font-size: 1.6rem;
-    color: #999;
-}
-
-.service-text {
-    line-height: 1.5;
-    font-size: 1.2rem;
-}
-
-
-.projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.507)), url(./image/bird-s-eye-view-photography-of-city-2960007.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.title {
-    font-size: 2.3rem;
-    color: #999;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.project {
-    background-color: rgba(255, 255, 255, 0.705);
-    width: 30%;
-    padding: 1rem 2rem;
-    margin: 0 1rem;
-    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.692);
-    text-align: center;
-}
-
-.project-desc {
-    line-height: 1.4;
+.service__desc {
     font-size: 1.1rem;
-    color: #777;
+    line-height: 1.4;
 }
 
+/* The Course Section Starts Here*/
+.courses {
+    padding: 4rem 6rem;
+}
+
+.courses-content {
+    display: flex;
+}
+
+.course {
+    width: 20%;
+    box-shadow: 2px 2px 4px rgb(85, 85, 85, 0.39);
+    margin: 0.5rem;
+    transition: all 1.5s;
+}
+
+.course:hover {
+    box-shadow: 4px 4px 8px rgb(85, 85, 85, 0.39);
+}
+
+.course__image--content {
+    background-color: black;
+}
+
+.course__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: .7;
+    transition: all 3s;
+}
+
+.course:hover .course__img {
+    opacity: 3;
+}
+
+.course__text {
+    padding: .8rem 1rem;
+}
+
+.course__title {
+    font-size: 1rem;
+    color: #222;
+    margin-top: 0;
+}
+
+.course__author {
+    font-size: .8rem;
+
+}
+
+.course__price {
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* The About Starts Here*/
+.about {
+    padding: 3rem 4rem;
+    background-color: #999;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about__text {
+    width: 50%;
+    box-shadow: 6px 6px 8px rgb(0, 0, 0, 0.514);
+    padding: 0 1.3rem;
+    z-index: 10000;
+    background-color: white;
+}
+
+.about__title {
+    font-size: 2rem;
+    color: #222;
+}
+
+.about__desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #999;
+}
+
+.about__img--content {
+    width: 35%;
+    margin-left: -5rem;
+    z-index: 10;
+    transform: rotate(10deg);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.493);
+}
+
+.about__img {
+    width: 100%;
+    height: 100%;
+}
+
+/* The Users Section Starts Here*/
 .users {
-    padding: 6rem 4rem;
+    padding: 8rem 4rem;
+    background-color: rgb(199, 199, 199);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6rem;
+}
+
+.users-content {
+    display: flex;
+    justify-content: center;
 }
 
 .user {
-    width: 25%;
-    padding: 1rem 1.2rem;
-    margin: 0 1.4rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
     text-align: center;
+    width: 30%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+    background-color: white;
+    margin: 0 1.3rem;
 }
 
-.user-img {
-    border-radius: 50%;
+.user__img {
     width: 6rem;
     height: 6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -3rem;
 }
 
-.user-desc {
-    margin-bottom: 1.3rem;
+.user__title {
+    font-size: 1.5rem;
+    color: #222;
 }
 
-.user-link {
+.user__job {
+    font-size: 1.1rem;
+}
+
+.user__link {
+    padding: .7rem 1rem;
+    color: #999;
     text-decoration: none;
-    color: #555;
-    border: 1px solid #555;
-    padding: .6rem 1rem;
+    border: 1px solid #999;
     display: inline-block;
+    margin-bottom: 1.3rem;
     transition: all .5s;
 }
 
-.user-link:hover {
-    background-color: orange;
-    color: white;
+.user__link:hover {
+    background-color: black;
 }
 
+/* The Main Finishes Here*/
 .footer {
     background-color: rgb(192, 192, 192);
     text-align: center;
@@ -209,4 +289,78 @@ body {
 .footer-text {
     font-size: 1.3rem;
 }
+
+/* The Media Queries Start Here */
+@media only screen and (max-width: 1000px) {
+    .services-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .users-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .user {
+        width: 50%;
+        margin: 3.5rem 0;
+    }
+
+    .user__img {
+        width: 4rem;
+        height: 4rem;
+        margin-top: -2rem;
+    }
+
+    .courses-content {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .about__text {
+        width: 80%;
+    }
+
+    
+    .about__img--content {
+         width: 80%;
+         margin-left: 0;
+         transform: rotate(0);
+         margin-top: 3rem;
+    }
+
+    .about__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .courses-content {
+        flex-wrap: wrap;
+    }
+    
+    .course {
+        width: 30%;
+        margin: 1rem .5rem;
+    }
+}
+
 
