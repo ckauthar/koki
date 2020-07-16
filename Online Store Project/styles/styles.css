@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.nav {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
+  padding: .6rem 0; }
+  .nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; }
+  .nav__list {
+    display: flex;
+    list-style: none; }
+  .nav__item {
+    margin: 0 1.2rem; }
+  .nav__link {
+    text-decoration: none;
+    color: #555; }
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%; }
+
+.header__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #777;
+  padding: 1rem 0; }
+
+.header__icons i {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem; }
+
+.header__form input {
+  border: none;
+  border-radius: 10px;
+  padding: .8rem 2rem; }
+
+.header__buttons a {
+  text-decoration: none;
+  color: black;
+  margin-right: .7rem; }
+
+.header {
+  background-image: linear-gradient(rgba(185, 0, 0, 0.418), rgba(0, 0, 0, 0.411)) url("./../../../images/clothes.jpg");
+  height: 100vh;
+  background-attachment: fixed; }
+
+.header__hero-content {
+    width: 50%;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.header__title {
+    font-size: 3rem;
+    color: white;
+}
+
+.header__desc {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 2.2rem; 
+}
+
+.header__link {
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 1rem 1.2rem;
+    border-radius: 4px; 
+}
