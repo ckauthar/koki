@@ -1,8 +1,9 @@
 .header {
-    background-image: linear-gradient(rgba(185, 0, 0, 0.418), rgba(0, 0, 0, 0.411))url('./../../../images/clothes.jpg');
+    background-image: linear-gradient(rgba(185, 0, 0, 0.418), rgba(0, 0, 0, 0.411)), url("./../images/clothes.jpg");
     height: 100vh;
-    background-attachment: fixed;
-    
+    background-attachment: fixed; 
+    background-size: cover;
+ 
     &__hero-content {
         width: 50%;
         text-align: center;

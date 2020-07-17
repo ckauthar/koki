@@ -1,0 +1,18 @@
+.about {
+    width: 80%;
+    margin: -1rem auto 0 auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    padding: 4rem 1rem;
+
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__img {
+        width: 9rem;
+        height: 9rem;
+    }
+}
