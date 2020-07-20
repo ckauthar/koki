@@ -1,13 +1,10 @@
 .categories {
-    padding: 4rem 2rem;
-    display: flex;
-    height: 20rem;
+    padding: 8rem 2rem;
 
     &__left {
         width: 75%;
         height: 100%;
         margin-right: 2rem;
-        background-color: red;
 
         &--topRow {
             display: flex;
@@ -16,6 +13,7 @@
 
         &--bottomRow {
             display: flex;
+            padding: 1rem 1.2rem;
         }
     }
 
@@ -26,7 +24,7 @@
 }
 
 .row {
-    width: 30%;
+   display: flex; 
 }
 
 .category {
@@ -36,8 +34,18 @@
     padding: 0;
     margin-bottom: 1.2rem;
 
+    &__row {
+        width: 30%;
+    }
+
+    &__col {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
     &__img--container {
         width: 100%;
+        height: 100&;
         position: absolute;
         top: 0;
         left: 0;
@@ -48,19 +56,26 @@
     &__img {
         width: 100%;
         height: 100%;
-        opacity: .4;
+        opacity: .3;
     }
 
     &__text {
         z-index: 999;
         position: relative;
-        padding: .5rem 1rem 1rem 1rem;
+        padding: .5rem;
         text-align: center;
     }
 
     &__title {
-        color: orange;
         font-size: 1.7rem;
+
+        &--orange {
+            color: orange;
+        }
+
+        &--gray {
+            color: gray;
+        }
     }
 
     &__description {
@@ -85,7 +100,7 @@
 }
 
 .bottomRow--img {
-    width: 40%;
+    width: 25%;
     margin-right: 2rem;
     overflow: hidden;
 }
@@ -93,3 +108,8 @@
 .category__content--text {
     width: 60%;
 }
+
+.noOpcaity {
+    opacity: 0;
+}
+

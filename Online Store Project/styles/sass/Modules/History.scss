@@ -1,0 +1,44 @@
+.history {
+    padding: 1rem 2rem 1rem 0;
+
+    &__content {
+        display: flex;
+    }
+
+    &__img--container {
+        width: 50%;
+        background-image: url('./../../../images/shopping.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        margin-right: 2rem;
+        clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    }
+
+    &__text {
+        width: 50%;
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    &__desc {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: gray;
+        margin-bottom: 2rem;
+    }
+
+    &__btn {
+        color: gray;
+        padding: .8rem 1rem;
+        text-decoration: none;
+        background-color: white;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 5px;
+    }
+}
+
+
+

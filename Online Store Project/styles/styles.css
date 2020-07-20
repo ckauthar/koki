@@ -105,16 +105,13 @@ body {
 }
 
 .categories {
-  padding: 4rem 2rem;
-  display: flex;
-  height: 20rem;
+  padding: 8rem 2rem;
 }
 
 .categories__left {
   width: 75%;
   height: 100%;
   margin-right: 2rem;
-  background-color: red;
 }
 
 .categories__left--topRow {
@@ -124,6 +121,7 @@ body {
 
 .categories__left--bottomRow {
   display: flex;
+  padding: 1rem 1.2rem;
 }
 
 .categories__right {
@@ -131,25 +129,26 @@ body {
     height: 100%;
 }
 
-.row {
-  width: 30%;
-}
-
 .category {
   box-shadow: 2px 2px 4px black;
   overflow: hidden;
   position: relative;
+  padding: 0;
   margin-bottom: 1.2rem;
 }
 
-.category__img--container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9;
+.category__row {
+  width: 30%;
+}
+
+.category__col {
+  width: 100%;
+  padding-bottom: 1rem;
 }
 
 .category__img--container {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -160,19 +159,26 @@ body {
 .category__img {
   width: 100%;
   height: 100%;
-  opacity: .4;
+  opacity: .3;
 }
 
 .category__text {
   z-index: 999;
   position: relative;
-  padding: .5rem 1rem 1rem 1rem;
-  align-items: center;
+  padding: .5rem;
+  text-align: center;
 }
 
 .category__title {
-  color: orange;
   font-size: 1.7rem;
+}
+
+.category__title--orange{
+  color: orange;
+}
+
+.category__title--gray {
+  color: gray;
 }
 
 .category__description {
@@ -196,11 +202,57 @@ body {
 }
 
 .bottomRow--img {
-  width: 40%;
+  width: 25%;
   margin-right: 2rem;
   overflow: hidden;
 }
 
 .category__content--text {
   width: 60%;
+}
+
+.noOpcaity {
+  opacity: 0;
+}
+
+.history {
+  padding: 1rem 2rem 1rem 0;
+}
+
+.history__content {
+  display: flex;
+}
+
+.history__img--container {
+  width: 50%;
+  background-image: url('./../images/shopping.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  margin-right: 2rem;
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+}
+
+.history__text {
+  width: 50%;
+}
+
+.history__title {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.history__desc {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+.history__btn {
+  color: gray;
+  padding: .8rem 1rem;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
 }
