@@ -10,6 +10,10 @@
         box-shadow: 2px 2px 4px black;
         border-radius: 5px;
 
+        @include phone {
+            padding: 2rem 0;
+        }
+
         &--info {
             width: 70%;
             background-color: white;
@@ -17,6 +21,10 @@
             margin: 0 auto;
             box-shadow: 2px 2px 4px black;
             border-radius: 5px;
+
+            @include phone {
+                padding: 2rem 0;
+            }
         }
     }
 
@@ -24,6 +32,10 @@
         color: #999;
         font-size: 2rem;
         text-align: center;
+
+        @include phone {
+            font-size: 1rem;
+        }
     }
 
     &__form {
@@ -36,17 +48,8 @@
     &__input {
         margin-bottom: 1.2rem;
         padding: .8rem 1rem;
-        box-shadow: 2px 2px 4px black;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
         border: none;
         border-radius: 5px;
-    }
-
-    &__button {
-        background-color: white;
-        box-shadow: 2px 2px 4px black;
-        border-radius: 10px;
-        padding: .7rem 1rem;
-        width: 10rem;
-        margin: 0 auto;
     }
 }

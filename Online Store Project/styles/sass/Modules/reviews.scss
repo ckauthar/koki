@@ -1,18 +1,29 @@
 .reviews {
     padding: 8rem 4rem;
+    border: 1px solid rgba(119, 119, 119, 0.329);
+    box-shadow: 2px 2px 4px rgba(119, 119, 119, 0.329);
+    margin-top: 3rem;
 
     &__content {
         display: flex;
         flex-wrap: wrap;
+
+        @include phone {
+            flex-direction: column;
+        }
     }
 }
 
 .review {
-    border: 1px solid #777;
+    border: 1px solid rgba(119, 119, 119, 0.329);
     width: 40%;
     padding: .7rem 1rem;
     margin: .5rem;
     box-sizing: border-box;
+
+    @include phone {
+        width: 100%;
+    }
 
     &__user {
         display: flex;
@@ -27,13 +38,13 @@
     }
 
     &__title {
-        padding: 1rem;
-        margin: 0;
+        margin: 0 0 .4rem 0;
         color: #999;
+        font-weight: 200;
+        font-size: 1.4rem;
     }
 
     &__location {
-        padding: 1rem;
         margin: 0;
     }
 

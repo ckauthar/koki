@@ -1,5 +1,5 @@
 .header {
-    background-image: linear-gradient(rgba(185, 0, 0, 0.418), rgba(0, 0, 0, 0.411)), url("./../images/clothes.jpg");
+    background-image: linear-gradient(rgba(185, 0, 0, 0.712), rgba(173, 10, 10, 0.692)), url("./../images/clothes.jpg");
     height: 100vh;
     background-attachment: fixed; 
     background-size: cover;
@@ -18,32 +18,20 @@
     &__title {
         font-size: 3rem;
         color: white;
+
+        @include phone {
+            margin: 6rem 0 0 0;
+            font-size: 2rem;
+        }
     }
 
     &__desc {
         font-size: 1.3rem;
         color: white;
         margin-bottom: 2.2rem;
-    }
 
-    &__link {
-        text-decoration: none;
-        background: white;
-        color: black;
-        padding: 1rem 1.2rem;
-        border-radius: 4px;
-    }
-
-    &__btn {
-        padding: .7rem 1rem;
-        border-radius: 2px;
-    }
-
-    &__border {
-        border: 1px solid white;
-    }
-
-    &__solid {
-        background-color: white;
+        @include phone {
+            font-size: 1rem;
+        }
     }
 }
