@@ -1,0 +1,13 @@
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.product {
+    width: 25%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #000;
+}
