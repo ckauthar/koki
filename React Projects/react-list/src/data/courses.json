@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "title": "Android Development With Kotlin 2020",
+        "desc": "Build Applications using kotlin from zero all the way to having solid understanding",
+        "categories": ["android", "kotlin", "mobile"],
+        "price": 600,
+        "author": "Kauthar Carelse",
+        "students": 35450,
+        "isHot": true,
+        "publisedDate": "20/6/2020",
+        "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": 2,
+        "title": "React Native Development 2020",
+        "desc": "Build Applications using react native from zero all the way to having solid understanding",
+        "categories": ["android", "ios", "mobile"],
+        "price": 600,
+        "author": "Kauthar Carelse",
+        "students": 35500,
+        "isHot": true,
+        "publisedDate": "20/6/2020",
+        "image": "https://railsware.com/blog/wp-content/uploads/2019/07/Why-we-use-ReactJS-for-our-projects-Illustration.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Front-End Development With React 2020",
+        "desc": "desig and implement high-performance scalable user experiences web using react from zero to hero.",
+        "categories": ["android", "kotlin", "mobile"],
+        "price": 650,
+        "author": "Kauthar Carelse",
+        "students": 55450,
+        "isHot": false,
+        "publisedDate": "20/6/2020",
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },{
+        "id": 4,
+        "title": "Javascript for Web Designer 2020",
+        "desc": "Learn how to use javascript in the web-browser by building applications using the web browser api to having a solid understanding in the field",
+        "categories": ["android", "kotlin", "mobile"],
+        "price": 400,
+        "author": "Kauthar Carelse",
+        "students": 65450,
+        "isHot": true,
+        "publisedDate": "20/6/2020",
+        "image": "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+]
