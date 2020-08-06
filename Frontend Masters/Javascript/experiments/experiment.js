@@ -1,7 +1,8 @@
-const monthlyRent = 500;
+let friendsAtYourParty = 0;
 
-const yearlyRent = monthlyRent * 12;
-console.log(yearlyRent);
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+    friendsAtYourParty++;
+}
 
-yearlyRent = 1;
-console.log(yearlyRent);
+console.log(friendsAtYourParty);
