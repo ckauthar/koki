@@ -1,0 +1,13 @@
+body {
+    background-image: url(./images/Now\ Showing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+  
+#demo {
+    font-family: cursive;
+    text-align: center;
+    color: gold;
+    font-size: 70px;
+    padding: 30px 30px 50px 30px;
+}
