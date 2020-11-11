@@ -1,0 +1,20 @@
+.blog-card:hover {
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.blog-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blog-card h3 {
+    margin: 16px 16px 12px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
